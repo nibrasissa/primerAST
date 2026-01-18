@@ -1,0 +1,29 @@
+{
+    "model_name": "PrimerSAT Gradient Boosting Classifier",
+    "version": "1.0",
+    "trained_on": "2025-11-17 12:40:38.900545",
+    "n_samples": 315,
+    "n_features": 16,
+    "feature_columns": [
+        "forward_len",
+        "reverse_len",
+        "gc_content_fix",
+        "tm_forward",
+        "tm_reverse",
+        "delta_tm",
+        "gc_skew",
+        "at_skew",
+        "homopolymer_max",
+        "gc_3prime_forward",
+        "gc_3prime_reverse",
+        "GC clamp_code",
+        "Self-annealing_code",
+        "Hairpin formation_code",
+        "snp_count_clean",
+        "has_snp_clean"
+    ],
+    "label_format": {
+        "0": "Predicted to Fail",
+        "1": "Validated"
+    }
+}
