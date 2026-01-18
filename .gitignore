@@ -2,4 +2,4 @@
 .streamlit/secrets.toml
 *.pyc
 .env
-*.joblib
+
