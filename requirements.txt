@@ -1,3 +1,13 @@
+streamlit==1.41.1
+altair==5.5.0
+pandas
+numpy
+scikit-learn
+scipy
+joblib
+requests
+primer3-py
+toml
 joblib
 numpy
 pandas
