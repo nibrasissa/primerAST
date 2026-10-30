@@ -2,16 +2,10 @@ streamlit==1.41.1
 altair==5.5.0
 pandas
 numpy
-scikit-learn
+# Must match the version used to pickle primersat_gb_model.joblib
+scikit-learn==1.6.1
 scipy
 joblib
 requests
 primer3-py
 toml
-joblib
-numpy
-pandas
-primer3-py
-requests
-scikit-learn
-streamlit
